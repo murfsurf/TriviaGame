@@ -21,49 +21,203 @@
         </div>
         <div id="main">
             <div id="first">
-                    <h2>Trivial Trivia</h2>
+                    <h2>Time to play Trivial Trivia!!</h2>
                 </div>
                 <div id="second">
                     <h2>Game Rules</h2>
-                    <p>You will be given a random number at the beginning of the game.</p>
-                    <p>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
-                    <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number</p>
-                    <p>The value of each crystal is hidden from you until you click on it.</p>
-                    <p>Each time when the game starts, the game will change the values of each crystal.</p>
+                    <p>In this game, you have 2 minutes to answer 10 questions.  You can have only one answer per question
+                        and you must answer all questions before time expires!</p>
+
+                    <p>Click the "Start" button below to begin:</p>
+                    <hr>
+                    <div id="btnDiv"><button onclick="myFunction()">Start</button></div>
+                    <hr>
+                    
                 </div>
                 <div id="third">
-                    <h2>Random Number Section:</h2>
+                    <h2>TIMER:</h2>
                 </div>
                 <div id="fourth">
-                        <h2>Crystal Images Section:</h2>
+                    <h2>Questions:</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>George Washington Jr. was the first President?</p>
+                        </div>
+                            <div class="col-md-3">
+                                <button onclick="oneTrue()">True</button>
+                            </div>
+                            <div class="col-md-3">
+                                <button onclick="oneFalse()">False</button>
+                            </div>
+                
+                        </div>
+                        <!--Next Question-->
                         <div class="row">
-                                <div class="col-md-3"> 
-                                    <button>
-                                         <img src="assets/images/a.jpg" id="dagger" />
-                                    </button>
+                            <div class="col-md-6">
+                                <p>Bugs Bunny is a cat?</p>
+                            </div>
+                                <div class="col-md-3">
+                                    <button onclick="twoTrue()">True</button>
                                 </div>
                                 <div class="col-md-3">
-                                    <button>
-                                        <img src="assets/images/b.jpg"></div>
-                                    </button>
+                                    <button onclick="twoFalse()">False</button>
+                                </div>
+                            </div>
+                        <!--End Question-->
+
+                        
+
+                        <!--Next Question-->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Patriots won Superbowl?</p>
+                            </div>
                                 <div class="col-md-3">
-                                    <button>
-                                        <img src="assets/images/c.jpg">
-                                    </button>
+                                    <button onclick="threeTrue()">True</button>
                                 </div>
                                 <div class="col-md-3">
-                                    <button>
-                                        <img src="assets/images/d.jpg">
-                                    </button>
+                                    <button onclick="threeFalse()">False</button>
                                 </div>
-                              </div>
+                            </div>
+                        <!--End Question-->
+
+                        <!--Next Question-->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>California is largest State?</p>
+                            </div>
+                                <div class="col-md-3">
+                                    <button onclick="fourTrue()">True</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <button onclick="fourFalse()">False</button>
+                                </div>
+                            </div>
+                        <!--End Question-->
+
+                        <!--Next Question-->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Pluto is a planet?</p>
+                            </div>
+                                <div class="col-md-3">
+                                    <button onclick="fiveTrue()">True</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <button onclick="fiveFalse()">False</button>
+                                </div>
+                            </div>
+                        <!--End Question-->
+
+                        <!--Next Question-->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>There are six oceans?</p>
+                            </div>
+                                <div class="col-md-3">
+                                    <button onclick="sixTrue()">True</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <button onclick="sixFalse()">False</button>
+                                </div>
+                            </div>
+                        <!--End Question-->
+
+                        <!--Next Question-->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Kentucy is a southern State?</p>
+                            </div>
+                                <div class="col-md-3">
+                                    <button onclick="sevenTrue()">True</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <button onclick="sevenFalse()">False</button>
+                                </div>
+                            </div>
+                        <!--End Question-->
+
+                        <!--Next Question-->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Tomato is a fruit?</p>
+                            </div>
+                                <div class="col-md-3">
+                                    <button onclick="eightTrue()">True</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <button onclick="eightFalse()">False</button>
+                                </div>
+                            </div>
+                        <!--End Question-->
+
+                        <!--Next Question-->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>2018 is a leap year?</p>
+                            </div>
+                                <div class="col-md-3">
+                                    <button onclick="nineTrue()">True</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <button onclick="nineFalse()">False</button>
+                                </div>
+                            </div>
+                        <!--End Question-->
+
+                        <!--Next Question-->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>The sky is blue?</p>
+                            </div>
+                                <div class="col-md-3">
+                                    <button onclick="tenTrue()">True</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <button onclick="tenFalse()">False</button>
+                                </div>
+                            </div>
+                        <!--End Question-->
+
+                        <div id="fifth">
+                             <h2>Score Section:</h2>
+                             <div class="row">
+                                <div class="col-md-3">
+                                    <p>Correct:</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <p>_________</p>
+                                </div>
+                                    <div class="col-md-3">
+                                        <p>Incorrect:</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p>________</p>
+                                    </div>
+                                </div>
+
+                         </div>
+
+                         <div id="sixth">
+                             <hr>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <p>Click the 'start over' button to try again:</p>
+                                </div>
+                                    <div class="col-md-4">
+                                        <button onclick="startOver()">Start Over</button>
+                                    </div>
+                                    
+                                </div>
+                         </div>
+
+                    </div>
                 </div>
-                <div id="fifth">
-                    <h2>Your Total Score Is:</h2>
-                </div>
-                <div id="sixth">
-                    <h2>Score Section:</h2>
-                </div>
+
+
+                
+                
+                
         </div>
     </div>
     <div id="footer">
@@ -75,3 +229,12 @@
 
 
 </html>
+<!--1.  HOW TO CODE A COUNTDOWN TIMER AND PLACE NEXT TO TIMER
+    2.  CREATE QUESTIONS WITH ASSOCIATED BUTTONS FOR ANSWERS
+    3.  PLACE EVENT HANDLERS ON THE ANSWER BUTTONS THAT CHECK IF CORRECT OR INCORRECT
+    4.  AFTER CREATING VARIABLES TO HOLD CORRECT AND INCORRECT, UPDATE VARIABLE AFTER BUTTON CLICK
+    5.  CREATE FINAL SCORE VARIABLE
+    6.  CREATE AN EVENT HANDLER ON THE TIMER TO TALLY SCORES IN CORRECT AND INCORRECT VARIABLES
+    7.  DISPLAY SCORES IN FINAL SECTION (SHOULD HAVE CORRECT AND INCORRECT DISPLAY
+    8.  CREATE A PLAY AGAIN BUTTON THAT RESETS EVERYTHING
+    9.  DISABLE BUTTONS UPON TIMER REACHING TWO MINUTES-->
