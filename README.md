@@ -1,6 +1,7 @@
 # TriviaGame
 Homework 5 Assignment
 This readMe created at creation of repository.
+<<<<<<< HEAD
 
 
 PSUEDOCODE FOR THE TRIVIA GAME:
@@ -27,3 +28,6 @@ USING THE SKELETON CREATED IN THE HTML, I LOGICALLY NEED TO DO THE FOLLOWING:
     7.  DISPLAY SCORES IN FINAL SECTION (SHOULD HAVE CORRECT AND INCORRECT DISPLAY
     8.  CREATE A PLAY AGAIN BUTTON THAT RESETS EVERYTHING
     9.  DISABLE BUTTONS UPON TIMER REACHING TWO MINUTES-->
+=======
+Added index skeleton from last week to structure the game for this week.
+>>>>>>> 053901070fcc51a8edfb5459a571fdf6a5514e6a
